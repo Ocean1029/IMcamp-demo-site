@@ -142,12 +142,14 @@ body {
 .menu-toggle {
   display: none;
   background: none;
-  border: none;
+  border: 1px solid #444;
+  border-radius: 4px;
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   cursor: pointer;
-  padding: 0.2rem;
+  padding: 0.2rem 0.6rem;
   margin-left: auto;
+  line-height: 1;
 }
 
 /* RWD */
@@ -178,9 +180,14 @@ body {
     display: flex;
   }
 
+  .nav-links li {
+    list-style: none;
+    border-top: 1px solid #2a2a4e;
+  }
+
   .nav-links a {
     display: block;
-    padding: 0.4rem 0;
+    padding: 0.6rem 0;
   }
 
   .hero {
