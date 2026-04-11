@@ -1,3 +1,7 @@
+document.getElementById("menu-toggle").addEventListener("click", () => {
+  document.getElementById("nav-links").classList.toggle("open");
+});
+
 document.getElementById("dog-btn").addEventListener("click", async () => {
   const container = document.getElementById("dog-container");
   container.textContent = "Loading...";
